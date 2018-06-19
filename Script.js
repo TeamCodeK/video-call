@@ -1,6 +1,6 @@
 let isLogin = false;
 let peer = new Peer({host: 'cloud.peer-js.com'});
-let socket = io("http://localhost:8000");
+let socket = io("http://teamcodek.herokuapp.com");
 
 let localUser = {
     name: null,
