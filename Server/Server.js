@@ -1,4 +1,4 @@
-let io = require("socket.io")(8000);
+let io = require("socket.io")(process.env.PORT || 3000);
 let user_arr = [];
 
 // Kiểm tra user nào đó có đang tồn tại không, trả về 1 nếu có, 0 nếu không có
