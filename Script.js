@@ -1,5 +1,5 @@
 let isLogin = false;
-let peer = new Peer({host: 'cloud.peer-js.com'});
+let peer = new Peer({host: 'https://dashboard.heroku.com/apps/codekk/settings'});
 let socket = io("https://video-call-server.herokuapp.com/");
 
 let localUser = {
