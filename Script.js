@@ -17,7 +17,7 @@ let createUser = (user) => {
 
 // Nhìn tên hàm là bs
 getStream = () => {
-    return navigator.mediaDevices.getUserMedia({audio: false, video: true});
+    return navigator.mediaDevices.getUserMedia({audio: true, video: true});
 }
 
 
