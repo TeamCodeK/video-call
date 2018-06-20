@@ -3,8 +3,7 @@ let peer = new Peer({
     key: "peerjs",
     host: "https://codekk.herokuapp.com/",
     secure: true,
-    port: 443,
-    config: customConfig
+    port: 443
 });
 let socket = io("https://video-call-server.herokuapp.com/");
 
